@@ -1,0 +1,80 @@
+name: Bug report
+description: Report a reproducible problem with Grip
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping test Grip. Do not include phone numbers, caller names, screenshots with private call information, or other sensitive data.
+  - type: input
+    id: version
+    attributes:
+      label: Grip version
+      placeholder: "Example: 0.7.7 Beta"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone model
+      placeholder: "Example: Google Pixel 10 Pro XL"
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      placeholder: "Example: Android 16"
+    validations:
+      required: true
+  - type: input
+    id: phone_app
+    attributes:
+      label: Default Phone app
+      placeholder: "Example: Phone by Google"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Installation
+        - Permissions or setup
+        - Hand-side detection
+        - Overlay position or appearance
+        - Answer call
+        - Decline call
+        - Calibration
+        - App crash
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us exactly what happened and what you expected.
+      placeholder: |
+        1. Opened...
+        2. Received...
+        3. Grip...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional non-sensitive details
+      description: Mention work profile, Advanced Protection, default dialer changes, or a phone case when relevant.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I downloaded Grip from this repository.
+          required: true
+        - label: I removed all phone numbers, caller names, and other private information.
+          required: true
+
