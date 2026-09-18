@@ -63,9 +63,14 @@ See the full [Privacy Notice](PRIVACY.md).
 
 Grip does **not** request access to the camera, microphone, location, contacts, call log, storage, or Internet.
 
-## Current beta
+## Latest beta
 
-The first public download will be published here after it is signed with Grip's permanent release key. This avoids forcing testers to uninstall the app and lose local calibration when later updates are installed.
+**Grip 0.7.7 Beta** is the first public build signed with Grip's permanent release certificate.
+
+- APK SHA-256: `996c6b3d0ff21f02fe09bb17052a1f15d7af0ead09ef4f5a8678cdee12c40e09`
+- Signing certificate SHA-256: `8ad7f0a74fa47326920f80aa9c7bb95e052262528d6f0dd3a7b798bc576a406b`
+
+If you installed an earlier development build, uninstall it once before installing 0.7.7 because the development certificate is different. Future GitHub releases will use the permanent certificate above and can update 0.7.7 directly.
 
 ## Known limitations
 
