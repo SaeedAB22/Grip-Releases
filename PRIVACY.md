@@ -10,6 +10,7 @@ Grip processes call state, compatible actions from the default Phone app, and mo
 
 - Whether the cellular phone is idle, ringing, or in a call.
 - The actions exposed by the default Phone app's active call notification, when available, so the user can answer or decline.
+- Android may also provide the call notification's title or text to the notification-listener service. In the current beta this content can exist briefly in memory during the incoming call, but it is not displayed, written to storage, or transmitted.
 - Accelerometer, gravity, gyroscope, and linear-acceleration signals when available, plus compatible manufacturer grip sensors on supported devices.
 - Right- and left-hand calibration values and the last trusted side, stored locally in the app's private preferences.
 
@@ -17,7 +18,7 @@ Grip processes call state, compatible actions from the default Phone app, and mo
 
 - Contacts or address book.
 - Call history or call log.
-- Phone numbers or caller identities.
+- Phone numbers or caller identities are not retained after the call and are never transmitted.
 - Audio, microphone, camera, photos, files, location, or advertising identifiers.
 - Raw sensor histories.
 
@@ -42,4 +43,3 @@ Material changes to this notice will be described in the relevant GitHub release
 ## Contact
 
 For privacy questions, open an issue without including private information. A private contact channel will be added before a wider public release.
-
