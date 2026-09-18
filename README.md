@@ -8,7 +8,7 @@
 
 **ردّ على المكالمات أو ارفضها من لوحة صغيرة تظهر قرب اليد التي تمسك الهاتف.**
 
-[Download latest beta](https://github.com/SaeedAB22/Grip-Releases/releases/latest) · [Report a problem](https://github.com/SaeedAB22/Grip-Releases/issues/new?template=bug_report.yml) · [Privacy](PRIVACY.md)
+[Download Grip 0.7.7 Beta](https://github.com/SaeedAB22/Grip-Releases/releases/tag/v0.7.7) · [Report a problem](https://github.com/SaeedAB22/Grip-Releases/issues/new?template=bug_report.yml) · [Privacy](PRIVACY.md)
 
 </div>
 
@@ -44,7 +44,7 @@ See the full [Privacy Notice](PRIVACY.md).
 
 ## Install the beta | تثبيت النسخة التجريبية
 
-1. Open the [latest release](https://github.com/SaeedAB22/Grip-Releases/releases/latest).
+1. Open the [Grip 0.7.7 Beta release](https://github.com/SaeedAB22/Grip-Releases/releases/tag/v0.7.7).
 2. Download the APK listed under **Assets**.
 3. Allow your browser or file manager to install apps from this source when Android asks.
 4. Install Grip, open it, grant the requested permissions, and complete right/left-hand calibration.
