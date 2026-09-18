@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Grip app icon</title>
+  <desc id="desc">A phone outline with a small vertical answer and decline control inside the screen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172235"/>
+      <stop offset="1" stop-color="#0d1523"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <rect x="153" y="101" width="206" height="310" rx="42" fill="none" stroke="#f8fafc" stroke-width="20"/>
+  <rect x="228" y="126" width="56" height="14" rx="7" fill="#f8fafc"/>
+  <rect x="271" y="256" width="67" height="119" rx="33.5" fill="#111c2e" stroke="#64748b" stroke-width="6"/>
+  <circle cx="304.5" cy="290" r="22" fill="#1db770"/>
+  <circle cx="304.5" cy="341" r="22" fill="#eb1648"/>
+</svg>
